@@ -7,7 +7,7 @@ import numpy as np
 API_ID = 38797310              # Twój API_ID z my.telegram.org
 API_HASH = "124a85bdb9cd7263d79d60c1df9cb079"        # Twój API_HASH
 BOT_TOKEN = "8508629876:AAFd1q7R2PRkEF4R-ZtK5XssaAszZr1qXRM"      # Token od BotFather
-DEST_CHAT = 5238349473             # Twój chat ID w Telegramie
+DEST_CHAT = -1003759735479            # Twój chat ID w Telegramie
 
 # 🔹 Parametry bota
 TIMEFRAMES = ["15m", "1h"]
@@ -91,4 +91,5 @@ async def main():
         await asyncio.sleep(CHECK_INTERVAL)
 
 with client:
+
     client.loop.run_until_complete(main())
