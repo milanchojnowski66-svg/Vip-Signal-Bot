@@ -1,2 +1,3 @@
-#!/bin/bash
-python bot.py
+#!/usr/bin/env bash
+set -e
+python3 bot.py
